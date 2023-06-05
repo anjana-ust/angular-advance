@@ -4,11 +4,15 @@ import {HttpClient, HttpClientModule} from '@angular/common/http'
 import { AppComponent } from './app.component';
 import { RetrieveComponent } from './retrieve/retrieve.component';
 import { FormsModule } from '@angular/forms';
+import { CreateComponent } from './create/create.component';
+import { UpdateComponent } from './update/update.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    RetrieveComponent
+    RetrieveComponent,
+    CreateComponent,
+    UpdateComponent
   ],
   imports: [
     BrowserModule,FormsModule,HttpClientModule
